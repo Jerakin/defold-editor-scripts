@@ -2,7 +2,7 @@
 
 ## Dependencies
 
-python 3 exposed in your environment variables (being able to run `python` from the commandline)
+python 3 exposed in your environment variables (being able to run `python` from the commandline)  
 python package `deftree`, install it with `pip install deftree`
 
 ## Asset Scripts
