@@ -35,7 +35,7 @@ function M.get_commands()
                         return false
                     end
                 end
-                return atlas
+                return atlas and #opts.selection > 1
             end,
             run = function(opts)
                 local paths = {}
