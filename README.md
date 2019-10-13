@@ -1,9 +1,13 @@
 # Editor scripts
 
-## Dependencies
+## Install
+You can use the these editor scripts in your own project by adding this project as a [Defold library dependency](https://www.defold.com/manuals/libraries/). Open your game.project file and in the dependencies field under project add:  
+https://github.com/Jerakin/defold-editor-scripts/archive/master.zip
 
-python 3 exposed in your environment variables (being able to run `python` from the commandline)  
-python package `deftree`, install it with `pip install deftree`
+### Dependencies
+You also need to make sure you have python 3 and [deftree](https://github.com/Jerakin/DefTree) installed.  
+You can easily install deftree with  
+`pip install deftree`
 
 ## Asset Scripts
 These scripts are all accessible through the context menu in the asset view, they are context sensitive and will only show when you are clicking on the relevant file.

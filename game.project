@@ -14,3 +14,6 @@ input_method = HiddenInputField
 [project]
 title = editor-scripts
 
+[library]
+include_dirs = jerakin_editor_scripts
+
