@@ -19,3 +19,6 @@ This script takes a resource (filtered inside of the script, it will always be v
 <name>.json         => <name>.spinescene  
 <name>.spinescene   => <name>.spinemodel  
 ```
+
+### Create Monarch Scene From
+This script works on right click on a gui scene. It creates a collection, a gui_script and hooks them up for you.
