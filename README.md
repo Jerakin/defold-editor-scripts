@@ -6,19 +6,20 @@ python 3 exposed in your environment variables (being able to run `python` from 
 python package `deftree`, install it with `pip install deftree`
 
 ## Asset Scripts
-Accessible through the context menu in the asset view.
+These scripts are all accessible through the context menu in the asset view, they are context sensitive and will only show when you are clicking on the relevant file.
 
-### Add to Atlas
+### `add_to_atlas.editor_script`
 This script requires exactly 1 atlas and arbitrary amount of .pngs, it will add all selected images to the selected atlas.
 
-### Create Component
-This script takes a resource (filtered inside of the script, it will always be visble) and creates a component next to it.
+### `create_components.editor_script`
+This script adds a few menu items, which shows up depends on the type of file selected. They all create a new resource depending on your selection. A wav or ogg creates a sound component, a selection of .png files will create an atlas containing the selection, a json will create a spine scene.
 ```
 <name>.png          => NEW_ATLAS.atlas  
 <name>.wav          => <name>.sound  
+<name>.ogg          => <name>.sound  
 <name>.json         => <name>.spinescene  
 <name>.spinescene   => <name>.spinemodel  
 ```
 
-### Create Monarch Scene From
-This script works on right click on a gui scene. It creates a collection, a gui_script and hooks them up for you.
+### `make_monarch.editor_script`
+This script adds a menu option when bringing up the context menu on a gui scene. When used it creates a collection and a gui_script (which adds the "require monarch" and "acquire_input_focus" automatically). It adds the gui_script to the selected gui scene and adds the gui scene to the newly created collection.

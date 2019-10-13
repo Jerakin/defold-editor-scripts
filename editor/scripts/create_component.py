@@ -62,6 +62,7 @@ def atlas(paths):
     tree.write(first_path)
 
 resource_map = {".wav": sound,
+                ".ogg": sound,
                 ".json":spine_scene,
                 ".spinescene":spine_model
                 }
