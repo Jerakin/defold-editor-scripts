@@ -1,7 +1,7 @@
-These scripts have now been moved into their own repositories
-https://github.com/Jerakin/editor-script-atlas
-https://github.com/Jerakin/editor-script-components
-https://github.com/Jerakin/editor-script-monarch
+# These scripts have now been moved into their own repositories  
+https://github.com/Jerakin/editor-script-atlas  
+https://github.com/Jerakin/editor-script-components  
+https://github.com/Jerakin/editor-script-monarch  
 
 ____
 
