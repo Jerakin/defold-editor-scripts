@@ -1,5 +1,11 @@
-# Editor scripts
+These scripts have now been moved into their own repositories
+https://github.com/Jerakin/editor-script-atlas
+https://github.com/Jerakin/editor-script-components
+https://github.com/Jerakin/editor-script-monarch
 
+____
+
+# Editor scripts
 ## Install
 You can use the these editor scripts in your own project by adding this project as a [Defold library dependency](https://www.defold.com/manuals/libraries/). Open your game.project file and in the dependencies field under project add:  
 https://github.com/Jerakin/defold-editor-scripts/archive/master.zip
